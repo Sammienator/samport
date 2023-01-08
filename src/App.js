@@ -4,6 +4,9 @@ import './App.css';
 import Navbars from './components/Navbar'
 import Jum from './components/Jum'
 import About from './components/About'
+import Progress from './components/Progress'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -15,6 +18,11 @@ function App() {
 
       <About/>
       
+      <Progress/>
+
+      <Contact/>
+
+      <Footer/>
       
 
      

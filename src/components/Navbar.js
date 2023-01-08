@@ -12,13 +12,13 @@ function Navbars() {
   return (
 
 
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar collapseOnSelect expand="lg" bg="transparent" variant="dark">
       <Container>
-        <Navbar.Brand href="#home">Samuel's Portfolio</Navbar.Brand>
+        <Navbar.Brand href="#home"> <h1> Samuel's Portfolio</h1>   </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="#features">About Me</Nav.Link>
+            <Nav.Link href="#features"> About Me  </Nav.Link>
             
             <NavDropdown title="Contacts" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Find My Socials</NavDropdown.Item>
