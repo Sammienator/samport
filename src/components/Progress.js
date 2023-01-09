@@ -6,7 +6,7 @@ function StripedExample() {
   return (
     <div id='progresss'  >
      
-      <h1 className='heading' style={{ fontWeight: "bolder" , textAlign: "center" }}  >  Languages and frameworks i am proficient in.</h1>
+      <h1 className='heading' style={{ fontWeight: "bolder" , textAlign: "center", textDecoration: "underline" , textTransform: "capitalize" }}  >  Languages and frameworks i am proficient in.</h1>
       <Container className='prog' style={{textAlign: "center" }}>  
      <p><ProgressBar animated now={40} label={`Javascript`} variant="info"  />   </p> 
      <p   > "JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside Html and Css.<br/> As of 2022, 98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries"</p>

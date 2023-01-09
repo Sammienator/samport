@@ -15,7 +15,7 @@ const Jum = () => {
           experience as a junior software developer . As a self taught developer, I
           have contributed to over a dozen projects and repositories through out career. I have attended multiple 
           BOOTcamps and internships such as GOOGLE Africa Developer scholarship (GADS) Andela Community among others, and this is where I was able to hone and refine my developer skills .</p>
-	  <a class="btn btn-primary btn-sm" href="http://mypic" role="button"> <h1> Hire ME </h1> </a>
+	  <a class="btn btn-primary btn-sm" href="#contactt" role="button"> <h1> Hire ME </h1> </a>
 </div>
     </div>
   )

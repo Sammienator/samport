@@ -17,10 +17,10 @@ const About = () => {
 
 
                 <div >
-                    <h1>
+                    <h1 style={{textDecoration: "underline", fontWeight: "bolder", fontSize: "50px"}}>
                         ABOUT ME
                     </h1>
-                    <p> A profile overview and summaty of my career so far </p>
+                    <p> A summary overview of myself is outlined below </p>
                 </div>
 
       </Col>
@@ -88,7 +88,7 @@ const About = () => {
      </Row>
 
 
-      <Row className='head' style={{marginBottom: "90px",  }} >
+      <Row className='head' style={{marginBottom: "90px", textAlign:"center" }} >
       <Col >
         <h4 > "Very passionate about aesthetics and UI design."</h4>
         
