@@ -1,4 +1,4 @@
-import Container from 'react-bootstrap/Container';
+ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
@@ -14,18 +14,18 @@ function Navbars() {
 
     <Navbar collapseOnSelect expand="lg" bg="transparent" variant="dark">
       <Container>
-        <Navbar.Brand href="#home"> <h1> Samuel's Portfolio</h1>   </Navbar.Brand>
+        <Navbar.Brand href="#homee"> <h1> Samuel's Portfolio</h1>   </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="#features"> About Me  </Nav.Link>
+            <Nav.Link href="#aboutt" smooth> About Me  </Nav.Link>
             
-            <NavDropdown title="Contacts" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Find My Socials</NavDropdown.Item>
+            <NavDropdown title="Contacts" id="collasible-nav-dropdown contactt">
+              <NavDropdown.Item href="#footerr" smooth >Find My Socials</NavDropdown.Item>
               
-              <NavDropdown.Item href="#action/3.3">Call To Acyion</NavDropdown.Item>
+              <NavDropdown.Item href="#progresss">My Skills</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
+              <NavDropdown.Item href="#homee">
                 Support Me.
               </NavDropdown.Item>
             </NavDropdown>

@@ -3,7 +3,7 @@ import React from 'react'
 
 const Jum = () => {
   return (
-    <div className='backg'>
+    <div id='homee' className='backg'>
         <div class="container-fluid p-5" style={{"textAlign": "center" , "color": "white" , "fontWeight": "bolder" , "textShadow" : "2px 2px grey"}}>
         
 	  <h1 class="display-4">Samuel Mugo: Portfolio</h1>

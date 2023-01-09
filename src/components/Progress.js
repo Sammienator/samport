@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/esm/Container';
 
 function StripedExample() {
   return (
-    <div  >
+    <div id='progresss'  >
      
       <h1 className='heading' style={{ fontWeight: "bolder" , textAlign: "center" }}  >  Languages and frameworks i am proficient in.</h1>
       <Container className='prog' style={{textAlign: "center" }}>  
