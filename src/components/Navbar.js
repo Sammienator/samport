@@ -17,7 +17,7 @@ function Navbars() {
         <Navbar.Brand href="#homee"> <h1> Samuel's Portfolio</h1>   </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ms-auto">
+          <Nav style={{fontSize: "30px", fontWeight: "bolder"}} className="ms-auto">
             <Nav.Link href="#aboutt" smooth> About Me  </Nav.Link>
             
             <NavDropdown title="Contacts" id="collasible-nav-dropdown contactt">
@@ -41,4 +41,4 @@ function Navbars() {
 }
 
 
-export default Navbars;
+export default Navbars; 
