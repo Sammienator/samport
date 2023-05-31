@@ -8,20 +8,20 @@ import { faFacebook, faGithub, faInstagram, faTwitter } from '@fortawesome/free-
 
 
 const style = {
-  borderTop: "1px solid #E7E7E7",
+ 
   textAlign: "center",
   padding: "20px",
-  position: "sticky",
   left: "0",
   top: "100",
   height: "70px",
   width: "100%",
-  marginTop: "70px"
+  marginTop: "70px",
+  backgroundColor: "transparent"
 };
 
  function footer () {
   return (
-    <div id="footerr" style={style} bg="success" >
+    <div id="footerr" style={style} >
       
 
 

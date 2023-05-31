@@ -1,5 +1,6 @@
 
 import './App.css';
+import React from 'react';
 
 import Navbars from './components/Navbar'
 import Jum from './components/Jum'
